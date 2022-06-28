@@ -1,0 +1,14 @@
+.container{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    .card{
+        margin: 10px;
+        width: calc(100% / 5 - 20px);
+        border: 3px solid white;
+        background-color: red;
+        padding: 1em;
+    }
+}
